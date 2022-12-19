@@ -28,6 +28,10 @@
   
 }
 
+.header-image {
+  display: flex;
+}
+
 .header-image > img {
   width: 100%;
 }
@@ -68,12 +72,12 @@
  padding: 60px 60px 0;
 }
 
-ul {
+.advantages-list {
   display: flex;
   list-style-type: none;
 }
 
-ul > li {
+.advantages-list > li {
   background-color: #cb6ce6 ;
   color: #fff;
   padding:  80px 40px;
